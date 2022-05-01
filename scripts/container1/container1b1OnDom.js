@@ -1,4 +1,4 @@
-import {renderToDom} from "./renderToDom.js";
+import {renderToDom} from "../renderToDom.js";
 
 const container1b1OnDom = () => {
   //initialize variable domString

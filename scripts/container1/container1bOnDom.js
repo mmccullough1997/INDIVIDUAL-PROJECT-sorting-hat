@@ -1,4 +1,4 @@
-import {renderToDom} from "./renderToDom.js";
+import {renderToDom} from "../renderToDom.js";
 import {container1b1OnDom} from "./container1b1OnDom.js";
 import { container1b2OnDom } from "./container1b2OnDom.js";
 

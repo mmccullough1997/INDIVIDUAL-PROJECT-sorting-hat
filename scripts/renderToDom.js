@@ -1,5 +1,4 @@
 import students from "./data.js";
-import container1aOnDom from "./container1aOnDom.js";
 
 
 //utility function
