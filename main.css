@@ -1,0 +1,21 @@
+.container1a {
+  border-bottom: black solid 2px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.container1b {
+  border: solid black 2px;
+  text-align: center;
+}
+
+
+.container1b1 {
+  border: 1px solid red;
+}
+
+.inputForm {
+  display: flex;
+  justify-content: center;
+}
