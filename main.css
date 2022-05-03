@@ -1,0 +1,74 @@
+.introCard {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+
+
+.container1a {
+  /* border-bottom: black solid 2px; */
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.container1b {
+  /* border: solid black 2px; */
+  text-align: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  /* border: solid black 2px; */
+}
+
+.container2a {
+  display: flex;
+  justify-content: center space-around;
+  /* border: solid black 2px; */
+}
+
+.container2b {
+  display: flex;
+  justify-content: center space-around;
+}
+
+.container2aCards {
+  margin-top: 50px;
+}
+
+.container2bCards {
+  margin-top: 50px;
+}
+
+
+/* .container1b1 {
+  border: 1px solid red;
+} */
+
+.inputForm {
+  display: flex;
+  justify-content: center;
+}
+
+.gryffindor {
+  background-color: red;
+  height: 200px;
+}
+
+.hufflepuff {
+  background-color: orange;
+  height: 200px;
+}
+
+.ravenclaw {
+  background-color: blue;
+  height: 200px;
+}
+
+.slytherin {
+  background-color: green;
+  height: 200px;
+}
