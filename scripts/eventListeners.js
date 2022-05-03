@@ -1,9 +1,10 @@
 import { renderToDom } from "./renderToDom.js";
-import students from "./data.js";
+import {students,deadArmy} from "./data.js";
 import container1aOnDom from "./container1/container1aOnDom.js";
 import { container1bOnDom } from "./container1/container1bOnDom.js";
-import { container2aOnDom } from "./container2/container2aOnDom.js";
+import { cardsOnDomContainer2a } from "./container2/container2aOnDom.js";
 import { container2bOnDom } from "./container2/container2bOnDom.js";
+import { addFilter } from "./filters.js";
 
 
 //event listeners
@@ -76,14 +77,14 @@ const eventListeners = () => {
               num.id = (i-1) + 1;
             })
             console.log(students);
-            container2aOnDom();
+            cardsOnDomContainer2a(students);
             container2bOnDom();
         })
       }
       inputStudentName();
 
 
-
+      addFilter();
       
     }
 

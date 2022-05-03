@@ -1,5 +1,5 @@
 import { renderToDom } from "../renderToDom.js";
-import students from "../data.js";
+import {students,deadArmy} from "../data.js";
 
 const container2bOnDom = () => {
 

@@ -1,4 +1,4 @@
-import students from "./data.js";
+import {students,deadArmy} from "./data.js";
 
 
 //utility function
