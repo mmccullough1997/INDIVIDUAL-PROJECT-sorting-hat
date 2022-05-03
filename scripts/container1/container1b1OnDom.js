@@ -8,19 +8,20 @@ const container1b1OnDom = () => {
 
   <!--Bootstrap-->
   <div class="inputForm">
-    <div class="row g-3 align-items-center">
-      <div class="col-auto">
-        <label for="inputname" class="col-form-label">Input First Year Name</label>
+
+    <form>
+      <div class="row g-3 align-items-center">
+        <div class="col-auto">
+          <label for="inputname" class="col-form-label">Input First Year Name</label>
+        </div>
+        <div class="col-auto">
+          <input type="name" id="name" class="form-control" aria-describedby="name">
+        </div>
+        <div class="col-auto">
+        <button type="submit" class="btn btn-primary" id="submitName" >Submit</button>
+        </div>
       </div>
-      <div class="col-auto">
-        <input type="name" id="name" class="form-control" aria-describedby="name">
-      </div>
-      <div class="col-auto">
-        <span id="name" class="form-text">
-          Must be 8-20 characters long.
-        </span>
-      </div>
-    </div>
+    </form>
   </div>
   `;
 
