@@ -1,7 +1,9 @@
 const students = [
 ];
 
-export default students;
+const deadArmy =[];
+
+export {students,deadArmy};
 
 // {
 //   id: 0,
