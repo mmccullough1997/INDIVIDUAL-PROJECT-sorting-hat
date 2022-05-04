@@ -3,8 +3,9 @@ import {students,deadArmy} from "./data.js";
 import container1aOnDom from "./container1/container1aOnDom.js";
 import { container1bOnDom } from "./container1/container1bOnDom.js";
 import { cardsOnDomContainer2a } from "./container2/container2aOnDom.js";
-import { container2bOnDom } from "./container2/container2bOnDom.js";
+import { cardsOnDomContainer2b } from "./container2/container2bOnDom.js";
 import { addFilter } from "./filters.js";
+import { expelButton } from "./expelButton.js";
 
 
 //event listeners
@@ -49,9 +50,10 @@ const eventListeners = () => {
             let randNums = [1,5,7,8];
             let randomHouse = randNums[Math.floor(Math.random()*randNums.length)];
             
-            //add input name to new student object
+            //add input name to new student object and property of expelled set to false
             const newStudentObj = {
-              name: document.querySelector('#name').value
+              name: document.querySelector('#name').value,
+              expelled: false
             };
 
             //based on random number, assign corresponding random house to new student object
@@ -76,15 +78,16 @@ const eventListeners = () => {
             students.forEach((num, i) => {
               num.id = (i-1) + 1;
             })
-            console.log(students);
+            console.log(students, 'this is students');
             cardsOnDomContainer2a(students);
-            container2bOnDom();
-        })
-      }
-      inputStudentName();
-
-
-      addFilter();
+            // container2bOnDom();
+          })
+        }
+        inputStudentName();
+        
+        
+        addFilter();
+        expelButton();
       
     }
 
