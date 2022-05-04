@@ -37,6 +37,11 @@
 
 .container2aCards {
   margin-top: 50px;
+  width: 100%;
+}
+
+.expelButton {
+  margin: 10px;
 }
 
 .container2bCards {
@@ -70,5 +75,10 @@
 
 .slytherin {
   background-color: green;
+  height: 200px;
+}
+
+.veryBad {
+  background-color: black;
   height: 200px;
 }

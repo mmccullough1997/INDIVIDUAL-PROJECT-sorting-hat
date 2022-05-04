@@ -1,7 +1,6 @@
-const students = [
-];
+const students = [];
 
-const deadArmy =[];
+let deadArmy =[];
 
 export {students,deadArmy};
 
