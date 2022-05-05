@@ -38,13 +38,7 @@ const expelButton = () => {
         console.log(deadArmy, 'this is dead');
       }
     }
-
-
-
   })
-
-
-
 }
 
 export {expelButton};

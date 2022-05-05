@@ -9,8 +9,6 @@ import {eventListeners} from "./eventListeners.js"
 // console.log(students);
 // console.log(deadArmy);
 
-
-
 //startup function
 const startUp = () => {
   eventListeners();
