@@ -13,5 +13,4 @@ const addFilter = () => {
     }
   })
 }
-
 export {addFilter};

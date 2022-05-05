@@ -89,11 +89,6 @@ const eventListeners = () => {
         expelButton();
       
     }
-
-
-
-
-
   })
 
   
