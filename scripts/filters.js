@@ -11,14 +11,7 @@ const addFilter = () => {
       console.log(house);
       cardsOnDomContainer2a(house);
     }
-
-
-
   })
-
-
-
-
 }
 
 export {addFilter};

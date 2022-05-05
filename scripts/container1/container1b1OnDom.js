@@ -12,13 +12,13 @@ const container1b1OnDom = () => {
     <form>
       <div class="row g-3 align-items-center">
         <div class="col-auto">
-          <label for="inputname" class="col-form-label">Input First Year Name</label>
+          <label for="inputname" class="col-form-label">Input First Year Name:</label>
         </div>
         <div class="col-auto">
-          <input type="name" id="name" class="form-control" aria-describedby="name">
+          <input type="name" id="name" class="form-control" required aria-describedby="name" required>
         </div>
         <div class="col-auto">
-        <button type="submit" class="btn btn-primary" id="submitName" >Submit</button>
+        <button type="submit" class="btn btn-primary" id="submitName" ><i class="fa-solid fa-hat-wizard"></i></button>
         </div>
       </div>
     </form>

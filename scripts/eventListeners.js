@@ -21,6 +21,7 @@ const eventListeners = () => {
         <a id="clickStart" class="btn btn-primary">Click me to get started</a>
       </div>
     </div>
+    <img class="wizardImage" src="./images/wizard.jpg">
     `
     //render introduction card to dom
     renderToDom('#introCard',domString);
@@ -84,8 +85,6 @@ const eventListeners = () => {
           })
         }
         inputStudentName();
-        
-        
         addFilter();
         expelButton();
       

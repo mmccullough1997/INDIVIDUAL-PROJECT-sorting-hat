@@ -15,7 +15,7 @@ import {students,deadArmy} from "../data.js";
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title name">${item.name}</h5>
-              <p class="card-text">${item.house}</p>
+              <p class="card-text">${item.house.slice(0,1).toUpperCase()+item.house.slice(1)}</p>
               
               <!--expel button-->
               <div>

@@ -1,13 +1,60 @@
 .introCard {
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  width: 200px;
+  height: 100px;
+
+  position: absolute;
+  top: -13em;
+  bottom: 0;
+  left: 15em;
+  right: 0;
+
+  margin: auto;
+
+  text-align: center;
+}
+
+.wizardImage {
+  height: 700px;
+  width: 500px;
+  position: absolute;
+  top: -12em;
+  bottom: 0;
+  left: -33em;
+  right: 15em;
+}
+
+.spiderman{
+  height: 70px;
+  width: 70px;
+}
+
+.filterText{
+  margin-top: 10px;
+}
+
+.allButton {
+  background-color: grey;
+}
+
+.gryffindorButton {
+  background-color: red;
+}
+
+.hufflepuffButton {
+  background-color: orange;
+}
+
+.ravenclawButton {
+  background-color: blue;
+}
+
+.slytherinButton {
+  background-color: green;
 }
 
 
-
 .container1a {
-  /* border-bottom: black solid 2px; */
+  /* border: black solid 2px; */
   text-align: center;
   margin-top: 20px;
 }
@@ -33,19 +80,26 @@
 .container2b {
   display: flex;
   justify-content: center space-around;
+  /* border-left: 2px black solid; */
+  /* border: solid black 2px; */
 }
 
 .container2aCards {
-  margin-top: 50px;
-  width: 100%;
+  margin: 50px;
+  width: 300px;
+  text-align: center;
 }
 
 .expelButton {
   margin: 10px;
+  width: 100px;
+  height: 50px;
 }
 
 .container2bCards {
-  margin-top: 50px;
+  margin: 50px;
+  width: 300px;
+  text-align: center;
 }
 
 
@@ -81,4 +135,8 @@
 .veryBad {
   background-color: black;
   height: 200px;
+}
+
+.insideOfContainer2b {
+  text-align: center;
 }

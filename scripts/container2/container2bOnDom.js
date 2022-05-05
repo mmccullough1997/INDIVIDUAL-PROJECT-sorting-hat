@@ -7,20 +7,16 @@ import {students,deadArmy} from "../data.js";
     for(const item of array) {
       domTargetCards += 
       `<div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
+        <div class="row g-0 insideOfContainer2b">
           <div class="col-md-3">
             <div class="${item.house} img-fluid rounded-start"></div>
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h5 class="card-title name">${item.name}</h5>
-              <p class="card-text">${item.house}</p>
+              <p class="card-text">Very Bad Person (VBP)</p>
+              <img class="spiderman" src="./images/spiderman.png">
               
-              <!--expel button-->
-              <div>
-              <button class="btn btn-danger expelButton" id="delete--${item.id}">Expel</button>
-              </div>
-
             </div>
           </div>
         </div>
