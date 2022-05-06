@@ -32,7 +32,18 @@
   margin-top: 10px;
 }
 
+
 .allButton {
+  background-color: grey;
+}
+
+.allButton:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: grey;
+}
+
+.allButton:focus{
   background-color: grey;
 }
 
@@ -40,7 +51,27 @@
   background-color: red;
 }
 
+.gryffindorButton:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: red;
+}
+
+.gryffindorButton:focus {
+  background-color: red;
+}
+
 .hufflepuffButton {
+  background-color: orange;
+}
+
+.hufflepuffButton:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: orange;
+}
+
+.hufflepuffButton:focus {
   background-color: orange;
 }
 
@@ -48,10 +79,36 @@
   background-color: blue;
 }
 
+.ravenclawButton:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: blue;
+}
+
+.ravenclawButton:focus {
+  background-color: blue;
+}
+
 .slytherinButton {
   background-color: green;
 }
 
+.slytherinButton:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: green;
+}
+
+.slytherinButton:focus {
+  background-color: green;
+}
+
+.container1 {
+  width: 100vw;
+  height:50vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
 
 .container1a {
   /* border: black solid 2px; */
@@ -66,28 +123,28 @@
 }
 
 .container2 {
+  width: 100vw;
+  height: 50vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   /* border: solid black 2px; */
 }
 
-.container2a {
+.ab {
+  width: 100%;
+  height: fit-content;
   display: flex;
-  justify-content: center space-around;
-  /* border: solid black 2px; */
-}
-
-.container2b {
-  display: flex;
-  justify-content: center space-around;
-  /* border-left: 2px black solid; */
-  /* border: solid black 2px; */
-}
-
-.container2aCards {
   margin: 50px;
-  width: 300px;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex:auto;
+}
+
+.abc{
+  width: 220px;
+  /* margin: 50px;
+  display: flex;
+  flex-wrap: wrap; */
 }
 
 .expelButton {
@@ -95,13 +152,6 @@
   width: 100px;
   height: 50px;
 }
-
-.container2bCards {
-  margin: 50px;
-  width: 300px;
-  text-align: center;
-}
-
 
 /* .container1b1 {
   border: 1px solid red;
@@ -134,9 +184,13 @@
 
 .veryBad {
   background-color: black;
-  height: 200px;
+  height: 220px;
 }
 
 .insideOfContainer2b {
   text-align: center;
 }
+
+/* .container2aCards {
+  border: solid 2px black;
+} */

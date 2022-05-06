@@ -8,7 +8,7 @@ const expelButton = () => {
       const [method, id] = event.target.id.split('--');
       // console.log(id, 'this is the id');
       let index = students.findIndex((taco) => taco.id === parseInt(id))
-      console.log(index, 'this is the index');
+      // console.log(index, 'this is the index');
 
       if(event.target.id.includes('delete')) {
         // console.log('Hell yeah you pressed delete!');
@@ -35,7 +35,8 @@ const expelButton = () => {
       //   // let darkArmy = students.map((student) => ({name: student.name, house: 'darkArmy', expelled: true})
       //   // )
       //   // console.log(students, 'this is students');
-        console.log(deadArmy, 'this is dead');
+
+        // console.log(deadArmy, 'this is dead');
       }
     }
   })

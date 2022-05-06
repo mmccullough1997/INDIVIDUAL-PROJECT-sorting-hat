@@ -8,7 +8,7 @@ const addFilter = () => {
       cardsOnDomContainer2a(students)
     } else if (event.target.id){
       const house = students.filter(taco => taco.house === event.target.id);
-      console.log(house);
+      // console.log(house);
       cardsOnDomContainer2a(house);
     }
   })
