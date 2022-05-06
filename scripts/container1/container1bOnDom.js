@@ -6,7 +6,7 @@ const container1bOnDom = () => {
   //initialize variable domString
   let domString ="";
   domString = 
-  `<p>There's more text here! lmao haha you should look at this text it's like super duper cool lmao</p>
+  `<p>There's more text here! haha you should look at this text it's like super duper cool haha</p>
   `;
   container1b1OnDom();
   container1b2OnDom();

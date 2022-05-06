@@ -6,7 +6,7 @@ import {students,deadArmy} from "../data.js";
     let domTargetCards = "";
     for(const item of array) {
       domTargetCards += 
-      `<div class="card mb-3" style="max-width: 540px;">
+      `<div class="card mb-3 abc" style="max-width: 540px;">
         <div class="row g-0 insideOfContainer2b">
           <div class="col-md-3">
             <div class="${item.house} img-fluid rounded-start"></div>

@@ -50,11 +50,12 @@ const eventListeners = () => {
             //random house designation
             let randNums = [1,5,7,8];
             let randomHouse = randNums[Math.floor(Math.random()*randNums.length)];
+            // console.log(randomHouse);
             
             //add input name to new student object and property of expelled set to false
             const newStudentObj = {
               name: document.querySelector('#name').value,
-              expelled: false
+              // expelled: false
             };
 
             //based on random number, assign corresponding random house to new student object
@@ -79,7 +80,7 @@ const eventListeners = () => {
             students.forEach((num, i) => {
               num.id = (i-1) + 1;
             })
-            console.log(students, 'this is students');
+            // console.log(students, 'this is students');
             cardsOnDomContainer2a(students);
             // container2bOnDom();
           })

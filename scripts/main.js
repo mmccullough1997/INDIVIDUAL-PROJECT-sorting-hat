@@ -8,6 +8,7 @@ import {eventListeners} from "./eventListeners.js"
 
 // console.log(students);
 // console.log(deadArmy);
+// document.querySelector('#container2aCards').style.visibility = 'hidden'
 
 //startup function
 const startUp = () => {
