@@ -194,3 +194,11 @@
 .container2bCards {
   border-left: solid black 2px;
 }
+
+#containerHeading{
+  text-align: center;
+}
+
+/* .containerHeading2 {
+  text-align: center;
+} */

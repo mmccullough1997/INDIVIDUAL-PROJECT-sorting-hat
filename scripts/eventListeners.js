@@ -46,6 +46,8 @@ const eventListeners = () => {
           inputName.addEventListener('submit', (event) => {
             event.preventDefault();
 
+            // document.querySelector(".containerHeading1").style.visibility = 'visible';
+
 
             //random house designation
             let randNums = [1,5,7,8];
