@@ -4,6 +4,7 @@ import {students,deadArmy} from "../data.js";
 
   //function to add cards
   const cardsOnDomContainer2a = (array) => {
+    
     let domTargetCards = "";
     for(const item of array) {
       domTargetCards += 
