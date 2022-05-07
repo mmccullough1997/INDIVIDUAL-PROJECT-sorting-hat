@@ -89,21 +89,9 @@ const eventListeners = () => {
         addFilter();
         expelButton();
       
-    }
+    } 
   })
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
 }
 
 export {eventListeners};
