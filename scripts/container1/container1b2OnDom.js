@@ -4,7 +4,7 @@ const container1b2OnDom = () => {
  //initialize variable domString
  let domString="";
  domString = 
- `<p class="filterText">filter students below or whatever</p>
+ `<p class="filterText">filter students below or something!</p>
  
  <div id="myButtons" class="topButtons">
     <button type="button" class="btn btn-primary btn-lg allButton" id="all">Show all</button>
